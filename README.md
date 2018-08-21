@@ -23,11 +23,12 @@
     상보 필터의 계산식 angle = (0.98* 자이로 센서각도)+(0.02*가속도 센서 각도)
 
 # PID Control 사용하는 이유 
+   ![image](https://user-images.githubusercontent.com/38156821/44377047-19889a80-a536-11e8-8a9a-09486e00b115.png)
+   
     비례-적분-미분 제어기라고 한다. 
     오차를 측정을 하고 오차를 제어 할 수 있다.
     비례식 : 현재 상태에서의 오차값의 크기에 비례한 제어작용을 한다.
     적분식 : 정상상태(steady-state) 오차를 없애는 작용을 한다.
     미분식 : 출력값의 급격한 변화에 제동을 걸어 오버슛(overshoot)을 줄이고 안정성(stability)을 향상시킨다.
-   ![image](https://user-images.githubusercontent.com/38156821/44377047-19889a80-a536-11e8-8a9a-09486e00b115.png)
-
+  
 #
